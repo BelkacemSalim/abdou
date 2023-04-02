@@ -1,22 +1,15 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 #include <string.h>
-void abdou_classic() {
-  
-  char *dialogue[] = 
-  {
-  "AYA LA BOUBELLE\n",
-  "TARBA7\n",
-  "MELOUR!\n",
-  "DOUKOU\n",
-  "L3IB KELMA\n",
-  "BDA LMSS9I\n",
-  "PARIS MARSEILLE?\n",
-  "WCHBIK KHO JAMAIS...\n",
-  "YAAAAAA\n"
-  };
-  
+#include <time.h>
+void abdou_classi() {
+
+  char *dialogue[] = {"AYA LA BOUBELLE",  "TARBA7",
+                      "MELOUR!",          "DOUKOU",
+                      "L3IB KELMA",       "BDA LMSS9I",
+                      "PARIS MARSEILLE?", "WCHBIK KHO JAMAIS...",
+                      "YAAAAAA"};
+
   srand(time(NULL));
-  printf("%s", dialogue[rand()%9+0]);
+  printf("@@@@@@@\nC|O†O|D\n ( Õ )  <(%s)\n", dialogue[rand() % 9 + 0]);
 }
