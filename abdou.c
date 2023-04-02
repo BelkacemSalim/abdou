@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-void abdou_classi() {
+void abdou_classic() {
 
   char *dialogue[] = {"AYA LA BOUBELLE",  "TARBA7",
                       "MELOUR!",          "DOUKOU",
